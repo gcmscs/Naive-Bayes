@@ -6,6 +6,8 @@ among over 100 topics. We are given documents on only “earn” and “acquisit
 (documents assigned to topics other than "earn" or "acq" are not in the dataset). As features, we use the frequency (counts) of each word occurred in the document.
 This model is known as bag of words model and it is frequently used in text categorization.
 
+**The training data is read and cached in .sre files for 0 and 1 labels**
+
 
 We have following files:
 train.csv: Training data. Each row represents a document, each column separated by commas represents
