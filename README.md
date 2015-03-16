@@ -2,7 +2,7 @@
 
 Naive Bayes Algo Implementation 
 
-I used use a benchmark dataset that is frequently used in text categorization problems.
+I used a benchmark dataset that is frequently used in text categorization problems.
 This dataset, Reuters-21578, consists of documents that were appeared in Reuters newswire in 1987. Each document was then manually categorized into a topic 
 among over 100 topics. We are given documents on only “earn” and “acquisition” (acq) topics, so we will be using a shortened version of the dataset 
 (documents assigned to topics other than "earn" or "acq" are not in the dataset). As features, we use the frequency (counts) of each word occurred in the document.
